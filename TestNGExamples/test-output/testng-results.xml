@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34" started-at="2018-12-13T07:40:34Z" finished-at="2018-12-13T07:40:34Z">
+    <groups>
+      <group name="Scooter">
+        <method signature="Groupings.Scooter1()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Scooter1" class="annotationDependencyandGroups.Groupings"/>
+        <method signature="Groupings.Scooter2()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Scooter2" class="annotationDependencyandGroups.Groupings"/>
+      </group> <!-- Scooter -->
+      <group name="Car">
+        <method signature="Groupings.Car1()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Car1" class="annotationDependencyandGroups.Groupings"/>
+        <method signature="Groupings.Car2()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Car2" class="annotationDependencyandGroups.Groupings"/>
+        <method signature="Groupings.Sedan1()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Sedan1" class="annotationDependencyandGroups.Groupings"/>
+      </group> <!-- Car -->
+      <group name="Sedan Car">
+        <method signature="Groupings.Sedan1()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Sedan1" class="annotationDependencyandGroups.Groupings"/>
+      </group> <!-- Sedan Car -->
+    </groups>
+    <test name="Practice Grouping" duration-ms="34" started-at="2018-12-13T07:40:34Z" finished-at="2018-12-13T07:40:34Z">
+      <class name="annotationDependencyandGroups.Groupings">
+        <test-method status="PASS" signature="Car1()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Car1" duration-ms="8" started-at="2018-12-13T07:40:34Z" finished-at="2018-12-13T07:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car1 -->
+        <test-method status="PASS" signature="Car2()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Car2" duration-ms="1" started-at="2018-12-13T07:40:34Z" finished-at="2018-12-13T07:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car2 -->
+        <test-method status="PASS" signature="Scooter1()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Scooter1" duration-ms="1" started-at="2018-12-13T07:40:34Z" finished-at="2018-12-13T07:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter1 -->
+        <test-method status="PASS" signature="Scooter2()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Scooter2" duration-ms="1" started-at="2018-12-13T07:40:34Z" finished-at="2018-12-13T07:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter2 -->
+        <test-method status="PASS" signature="Sedan1()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Sedan1" duration-ms="1" started-at="2018-12-13T07:40:34Z" finished-at="2018-12-13T07:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sedan1 -->
+      </class> <!-- annotationDependencyandGroups.Groupings -->
+    </test> <!-- Practice Grouping -->
+  </suite> <!-- Suite -->
+</testng-results>

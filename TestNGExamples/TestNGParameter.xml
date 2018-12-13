@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Parameters" verbose="1" >
+  <test name="TestNGParameter">
+ 
+ <parameter name="firstNum" value="7"/>
+ 
+ <parameter name="SecondNum" value="6"/>
+ 
+ <classes>
+ 
+     <class name="parameterandDataProvider.TestNgParameter" />
+ 
+ </classes>
+ 
+    </test>
+</suite>
