@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression_suite]">
+  <test thread-count="5" name="Application_test(failed)">
+    <classes>
+      <class name="testNGandReporter.TestNG_ReportsANDLogs">
+        <methods>
+          <include name="testMethod3"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="beforeMethod"/>
+          <include name="testMethod2"/>
+        </methods>
+      </class> <!-- testNGandReporter.TestNG_ReportsANDLogs -->
+    </classes>
+  </test> <!-- Application_test(failed) -->
+</suite> <!-- Failed suite [Regression_suite] -->

@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression_suite]">
+  <test thread-count="5" name="Application_test(failed)">
     <classes>
-      <class name="cssSelector.FindElementwithCSS">
+      <class name="testNGandReporter.TestNG_ReportsANDLogs">
         <methods>
-          <include name="LoginTest_CSS"/>
-          <include name="launchBrowser"/>
-          <include name="CloseBrowswer"/>
+          <include name="testMethod3"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="beforeMethod"/>
+          <include name="testMethod2"/>
         </methods>
-      </class> <!-- cssSelector.FindElementwithCSS -->
+      </class> <!-- testNGandReporter.TestNG_ReportsANDLogs -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Application_test(failed) -->
+</suite> <!-- Failed suite [Regression_suite] -->
