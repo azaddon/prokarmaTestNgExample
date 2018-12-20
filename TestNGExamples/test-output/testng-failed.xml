@@ -3,20 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="annotationDependencyandGroups.Annotations">
+      <class name="cssSelector.FindElementwithCSS">
         <methods>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
-          <include name="subtraction"/>
-          <include name="beforeMethod"/>
-          <include name="addition"/>
-          <include name="afterMethod"/>
-          <include name="afterTests"/>
-          <include name="beforeTests"/>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
+          <include name="LoginTest_CSS"/>
+          <include name="launchBrowser"/>
+          <include name="CloseBrowswer"/>
         </methods>
-      </class> <!-- annotationDependencyandGroups.Annotations -->
+      </class> <!-- cssSelector.FindElementwithCSS -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

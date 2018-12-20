@@ -1,45 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="34" started-at="2018-12-13T07:40:34Z" finished-at="2018-12-13T07:40:34Z">
+  <suite name="Default suite" duration-ms="75808" started-at="2018-12-20T08:57:16Z" finished-at="2018-12-20T08:58:32Z">
     <groups>
-      <group name="Scooter">
-        <method signature="Groupings.Scooter1()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Scooter1" class="annotationDependencyandGroups.Groupings"/>
-        <method signature="Groupings.Scooter2()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Scooter2" class="annotationDependencyandGroups.Groupings"/>
-      </group> <!-- Scooter -->
-      <group name="Car">
-        <method signature="Groupings.Car1()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Car1" class="annotationDependencyandGroups.Groupings"/>
-        <method signature="Groupings.Car2()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Car2" class="annotationDependencyandGroups.Groupings"/>
-        <method signature="Groupings.Sedan1()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Sedan1" class="annotationDependencyandGroups.Groupings"/>
-      </group> <!-- Car -->
-      <group name="Sedan Car">
-        <method signature="Groupings.Sedan1()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Sedan1" class="annotationDependencyandGroups.Groupings"/>
-      </group> <!-- Sedan Car -->
     </groups>
-    <test name="Practice Grouping" duration-ms="34" started-at="2018-12-13T07:40:34Z" finished-at="2018-12-13T07:40:34Z">
-      <class name="annotationDependencyandGroups.Groupings">
-        <test-method status="PASS" signature="Car1()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Car1" duration-ms="8" started-at="2018-12-13T07:40:34Z" finished-at="2018-12-13T07:40:34Z">
+    <test name="Default test" duration-ms="75808" started-at="2018-12-20T08:57:16Z" finished-at="2018-12-20T08:58:32Z">
+      <class name="cssSelector.FindElementwithCSS">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:cssSelector.FindElementwithCSS@45820e51]" name="launchBrowser" is-config="true" duration-ms="75758" started-at="2018-12-20T08:57:16Z" finished-at="2018-12-20T08:58:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Car1 -->
-        <test-method status="PASS" signature="Car2()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Car2" duration-ms="1" started-at="2018-12-13T07:40:34Z" finished-at="2018-12-13T07:40:34Z">
+        </test-method> <!-- launchBrowser -->
+        <test-method status="FAIL" signature="LoginTest_CSS()[pri:0, instance:cssSelector.FindElementwithCSS@45820e51]" name="LoginTest_CSS" duration-ms="6" started-at="2018-12-20T08:58:32Z" finished-at="2018-12-20T08:58:32Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at cssSelector.FindElementwithCSS.LoginTest_CSS(FindElementwithCSS.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Car2 -->
-        <test-method status="PASS" signature="Scooter1()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Scooter1" duration-ms="1" started-at="2018-12-13T07:40:34Z" finished-at="2018-12-13T07:40:34Z">
+        </test-method> <!-- LoginTest_CSS -->
+        <test-method status="PASS" signature="CloseBrowswer()[pri:0, instance:cssSelector.FindElementwithCSS@45820e51]" name="CloseBrowswer" is-config="true" duration-ms="0" started-at="2018-12-20T08:58:32Z" finished-at="2018-12-20T08:58:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Scooter1 -->
-        <test-method status="PASS" signature="Scooter2()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Scooter2" duration-ms="1" started-at="2018-12-13T07:40:34Z" finished-at="2018-12-13T07:40:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Scooter2 -->
-        <test-method status="PASS" signature="Sedan1()[pri:0, instance:annotationDependencyandGroups.Groupings@5034c75a]" name="Sedan1" duration-ms="1" started-at="2018-12-13T07:40:34Z" finished-at="2018-12-13T07:40:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Sedan1 -->
-      </class> <!-- annotationDependencyandGroups.Groupings -->
-    </test> <!-- Practice Grouping -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- CloseBrowswer -->
+      </class> <!-- cssSelector.FindElementwithCSS -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
