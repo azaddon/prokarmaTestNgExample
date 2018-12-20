@@ -3,16 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGandReporter.TestNG_ReportsANDLogs">
+      <class name="extentreports.ExtentReportTest">
         <methods>
-          <include name="testMethod3"/>
-          <include name="afterMethod"/>
-          <include name="setUp"/>
-          <include name="cleanUp"/>
-          <include name="beforeMethod"/>
-          <include name="testMethod2"/>
+          <include name="test_validate_login"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- testNGandReporter.TestNG_ReportsANDLogs -->
+      </class> <!-- extentreports.ExtentReportTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

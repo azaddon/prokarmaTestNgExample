@@ -47,5 +47,17 @@
 	<classpathentry kind="lib" path="D:/software/jar files/odf_jar/tools-1.7.0.jar"/>
 	<classpathentry kind="lib" path="D:/software/jar files/odf_jar/xercesImpl-2.9.1.jar"/>
 	<classpathentry kind="lib" path="D:/software/jar files/odf_jar/xml-apis-1.3.04.jar"/>
+	<classpathentry kind="lib" path="D:/software/jar files/extentReportjar/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/software/jar files/extentReportjar/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="D:/software/jar files/extentReportjar/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="D:/software/jar files/extentReportjar/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/software/jar files/extentReportjar/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/software/jar files/extentReportjar/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/software/jar files/extentReportjar/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="D:/software/jar files/apache_commons-io-2.6/commons-io-2.6/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/software/jar files/apache_commons-io-2.6/commons-io-2.6/commons-io-2.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/software/jar files/apache_commons-io-2.6/commons-io-2.6/commons-io-2.6-sources.jar"/>
+	<classpathentry kind="lib" path="D:/software/jar files/apache_commons-io-2.6/commons-io-2.6/commons-io-2.6-tests.jar"/>
+	<classpathentry kind="lib" path="D:/software/jar files/apache_commons-io-2.6/commons-io-2.6/commons-io-2.6-test-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
