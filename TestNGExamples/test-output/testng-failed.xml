@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Extent TestSuite]">
-  <test thread-count="5" name="FireFox Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="extentreports.Test1">
+      <class name="extentreports.ExtentReportTest">
         <methods>
-          <include name="afterClass"/>
+          <include name="test_validate_login"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
           <include name="beforeClass"/>
-          <include name="test1_validLoginTest"/>
         </methods>
-      </class> <!-- extentreports.Test1 -->
+      </class> <!-- extentreports.ExtentReportTest -->
     </classes>
-  </test> <!-- FireFox Test(failed) -->
-</suite> <!-- Failed suite [Extent TestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,6 +1,4 @@
 package extentreports;
-import extentreports.Screenshot;
-
 import java.io.IOException;
 
 import org.openqa.selenium.By;
@@ -45,7 +43,7 @@ public class ExtentReportTest {
 		driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/content/span")).click();
 		test.log(LogStatus.INFO, "waiting for enter password......");
 		Thread.sleep(5000);
-		driver.findElement(By.xpath("//*/input[@name='password']")).sendKeys("electricalandit");
+		driver.findElement(By.xpath("//*/input[@name='password']")).sendKeys("electricalandith");
 		test.log(LogStatus.INFO, "password entered......");
 		driver.findElement(By.xpath("//*[@id=\"passwordNext\"]/content/span")).click();
 		test.log(LogStatus.PASS, "login successful......");

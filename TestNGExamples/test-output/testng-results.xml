@@ -1,104 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Extent TestSuite" duration-ms="15011" started-at="2018-12-21T06:48:51Z" finished-at="2018-12-21T06:49:06Z">
+  <suite name="Default suite" duration-ms="42" started-at="2019-01-17T09:29:10Z" finished-at="2019-01-17T09:29:10Z">
     <groups>
+      <group name="Scooter">
+        <method signature="Groupings.Scooter1()[pri:0, instance:annotationDependencyandGroups.Groupings@25af5db5]" name="Scooter1" class="annotationDependencyandGroups.Groupings"/>
+        <method signature="Groupings.Scooter2()[pri:0, instance:annotationDependencyandGroups.Groupings@25af5db5]" name="Scooter2" class="annotationDependencyandGroups.Groupings"/>
+      </group> <!-- Scooter -->
+      <group name="Car">
+        <method signature="Groupings.Car1()[pri:0, instance:annotationDependencyandGroups.Groupings@25af5db5]" name="Car1" class="annotationDependencyandGroups.Groupings"/>
+        <method signature="Groupings.Car2()[pri:0, instance:annotationDependencyandGroups.Groupings@25af5db5]" name="Car2" class="annotationDependencyandGroups.Groupings"/>
+        <method signature="Groupings.Sedan1()[pri:0, instance:annotationDependencyandGroups.Groupings@25af5db5]" name="Sedan1" class="annotationDependencyandGroups.Groupings"/>
+      </group> <!-- Car -->
+      <group name="Sedan Car">
+        <method signature="Groupings.Sedan1()[pri:0, instance:annotationDependencyandGroups.Groupings@25af5db5]" name="Sedan1" class="annotationDependencyandGroups.Groupings"/>
+      </group> <!-- Sedan Car -->
     </groups>
-    <test name="FireFox Test" duration-ms="15011" started-at="2018-12-21T06:48:51Z" finished-at="2018-12-21T06:49:06Z">
-      <class name="extentreports.Test1">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:extentreports.Test1@4d3167f4]" name="beforeClass" is-config="true" duration-ms="14571" started-at="2018-12-21T06:48:51Z" finished-at="2018-12-21T06:49:06Z">
+    <test name="Default test" duration-ms="42" started-at="2019-01-17T09:29:10Z" finished-at="2019-01-17T09:29:10Z">
+      <class name="annotationDependencyandGroups.Groupings">
+        <test-method status="PASS" signature="Car1()[pri:0, instance:annotationDependencyandGroups.Groupings@25af5db5]" name="Car1" duration-ms="13" started-at="2019-01-17T09:29:10Z" finished-at="2019-01-17T09:29:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="test1_validLoginTest()[pri:0, instance:extentreports.Test1@4d3167f4]" name="test1_validLoginTest" duration-ms="8" started-at="2018-12-21T06:49:06Z" finished-at="2018-12-21T06:49:06Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at extentreports.Test1.test1_validLoginTest(Test1.java:45)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- Car1 -->
+        <test-method status="PASS" signature="Car2()[pri:0, instance:annotationDependencyandGroups.Groupings@25af5db5]" name="Car2" duration-ms="2" started-at="2019-01-17T09:29:10Z" finished-at="2019-01-17T09:29:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1_validLoginTest -->
-        <test-method status="FAIL" signature="afterClass()[pri:0, instance:extentreports.Test1@4d3167f4]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-12-21T06:49:06Z" finished-at="2018-12-21T06:49:06Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at extentreports.Test1.afterClass(Test1.java:80)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- Car2 -->
+        <test-method status="PASS" signature="Scooter1()[pri:0, instance:annotationDependencyandGroups.Groupings@25af5db5]" name="Scooter1" duration-ms="1" started-at="2019-01-17T09:29:10Z" finished-at="2019-01-17T09:29:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- extentreports.Test1 -->
-      <class name="extentreports.Test2">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:extentreports.Test2@ed9d034]" name="beforeClass" is-config="true" duration-ms="24" started-at="2018-12-21T06:49:06Z" finished-at="2018-12-21T06:49:06Z">
+        </test-method> <!-- Scooter1 -->
+        <test-method status="PASS" signature="Scooter2()[pri:0, instance:annotationDependencyandGroups.Groupings@25af5db5]" name="Scooter2" duration-ms="2" started-at="2019-01-17T09:29:10Z" finished-at="2019-01-17T09:29:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testMethod()[pri:0, instance:extentreports.Test2@ed9d034]" name="testMethod" duration-ms="4" started-at="2018-12-21T06:49:06Z" finished-at="2018-12-21T06:49:06Z">
+        </test-method> <!-- Scooter2 -->
+        <test-method status="PASS" signature="Sedan1()[pri:0, instance:annotationDependencyandGroups.Groupings@25af5db5]" name="Sedan1" duration-ms="2" started-at="2019-01-17T09:29:10Z" finished-at="2019-01-17T09:29:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:extentreports.Test2@ed9d034]" name="afterClass" is-config="true" duration-ms="368" started-at="2018-12-21T06:49:06Z" finished-at="2018-12-21T06:49:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- extentreports.Test2 -->
-    </test> <!-- FireFox Test -->
-  </suite> <!-- Extent TestSuite -->
+        </test-method> <!-- Sedan1 -->
+      </class> <!-- annotationDependencyandGroups.Groupings -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

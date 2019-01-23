@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8633" started-at="2019-01-18T13:10:35Z" finished-at="2019-01-18T13:10:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8633" started-at="2019-01-18T13:10:35Z" finished-at="2019-01-18T13:10:43Z">
+      <class name="oppoApplication.Automation_App">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:oppoApplication.Automation_App@1b604f19]" name="beforeTest" is-config="true" duration-ms="8566" started-at="2019-01-18T13:10:35Z" finished-at="2019-01-18T13:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="perform()[pri:0, instance:oppoApplication.Automation_App@1b604f19]" name="perform" duration-ms="4" started-at="2019-01-18T13:10:43Z" finished-at="2019-01-18T13:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- perform -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:oppoApplication.Automation_App@1b604f19]" name="afterTest" is-config="true" duration-ms="51" started-at="2019-01-18T13:10:43Z" finished-at="2019-01-18T13:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- oppoApplication.Automation_App -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
