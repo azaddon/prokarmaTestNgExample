@@ -6,7 +6,7 @@ package inheritance;
 		System.out.println("Parent Class A");
 	}
 
- class B extends A {
+ static class B extends A {
 	int i = 20;
 	public void message(){
 	System.out.println("Child Class B");
@@ -20,8 +20,9 @@ package inheritance;
 public static void main(String[] args) {
 //Reference variable of Super Class A with object of class B.
 		//The OVERRIDING method is called through the reference variable of the superclass
-		A a1 = new A();
+		A a1 =  new A();
 		//a1.message();
-        a1.message();//not accessible
+		A b1 =new B();
+        b1.message();//not accessible
 }
 }

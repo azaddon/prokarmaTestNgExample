@@ -48,13 +48,17 @@ public class Automation_App {
 		service = AppiumDriverLocalService.buildService(builder);
 		service.start();
 		System.out.println("appium started");
+    
+		
     	
 
     	            DesiredCapabilities capabilities = new DesiredCapabilities();
                     capabilities.setCapability("platformName", "Android");
-                    capabilities.setCapability("deviceName", "7774dc58");
-                    capabilities.setCapability("platformVersion", "5.1.1");
-                    capabilities.setCapability("app", "C:\\Users\\kmohd\\Desktop\\MMTS Train Timings_com.mmtstraintimings.apk");
+                    capabilities.setCapability("deviceName", "5ace01d7d140");
+                    //capabilities.setCapability("deviceName", "7774dc58");
+                    capabilities.setCapability("platformVersion", "7.1.2");
+                    //capabilities.setCapability("app", "C:\\Users\\kmohd\\Desktop\\MMTS Train Timings_com.mmtstraintimings.apk");
+                    capabilities.setCapability("app", "C:\\Users\\kmohd\\Desktop\\UTS_com.cris.utsmobile.apk");
                     capabilities.setCapability("browserName", "android");
                     //capabilities.setCapability("deviceOrientation", "portrait");
                     //capabilities.setCapability("appiumVersion", "1.5.3");
@@ -65,22 +69,18 @@ public class Automation_App {
                                     e.printStackTrace();
                     }
     }
+    
     @Test
     public void perform() {
     	System.out.println("as per ");
     }
 
 
-
 @AfterTest
 public void afterTest() {
-try {
-Thread.sleep(50);
-} catch (InterruptedException e) {
-//TODO Auto-generated catch block
-e.printStackTrace();
+
+
 service.stop();
 System.out.println("appium server stopped");
-}
 }
 }
