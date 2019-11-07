@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5526" started-at="2019-01-31T14:22:46Z" finished-at="2019-01-31T14:22:51Z">
+  <suite name="Default suite" duration-ms="3104" started-at="2019-09-02T09:30:13Z" finished-at="2019-09-02T09:30:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5526" started-at="2019-01-31T14:22:46Z" finished-at="2019-01-31T14:22:51Z">
+    <test name="Default test" duration-ms="3104" started-at="2019-09-02T09:30:13Z" finished-at="2019-09-02T09:30:16Z">
       <class name="oppoApplication.Automation_App">
-        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:oppoApplication.Automation_App@1b604f19]" name="beforeTest" is-config="true" duration-ms="5457" started-at="2019-01-31T14:22:46Z" finished-at="2019-01-31T14:22:51Z">
+        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:oppoApplication.Automation_App@1b604f19]" name="beforeTest" is-config="true" duration-ms="3028" started-at="2019-09-02T09:30:13Z" finished-at="2019-09-02T09:30:16Z">
           <exception class="io.appium.java_client.service.local.InvalidServerInstanceException">
             <message>
               <![CDATA[Invalid server instance exception has occured: There is no installed nodes! Please install node via NPM (https://www.npmjs.com/package/appium#using-node-js) or download and install Appium app (http://appium.io/downloads.html)]]>
@@ -54,7 +54,7 @@ at io.appium.java_client.service.local.AppiumServiceBuilder.findNodeInCurrentFil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="perform()[pri:0, instance:oppoApplication.Automation_App@1b604f19]" name="perform" duration-ms="0" started-at="2019-01-31T14:22:51Z" finished-at="2019-01-31T14:22:51Z">
+        <test-method status="SKIP" signature="perform()[pri:0, instance:oppoApplication.Automation_App@1b604f19]" name="perform" duration-ms="0" started-at="2019-09-02T09:30:16Z" finished-at="2019-09-02T09:30:16Z">
           <exception class="io.appium.java_client.service.local.InvalidServerInstanceException">
             <message>
               <![CDATA[Invalid server instance exception has occured: There is no installed nodes! Please install node via NPM (https://www.npmjs.com/package/appium#using-node-js) or download and install Appium app (http://appium.io/downloads.html)]]>
@@ -101,7 +101,7 @@ at io.appium.java_client.service.local.AppiumServiceBuilder.findNodeInCurrentFil
           <reporter-output>
           </reporter-output>
         </test-method> <!-- perform -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:oppoApplication.Automation_App@1b604f19]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-01-31T14:22:51Z" finished-at="2019-01-31T14:22:51Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:oppoApplication.Automation_App@1b604f19]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-09-02T09:30:16Z" finished-at="2019-09-02T09:30:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
